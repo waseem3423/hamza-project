@@ -1,0 +1,86 @@
+/* Global reset for Homz Template */
+@import "tailwindcss";
+
+.featured-boxarea .img1 {
+    height: 500px !important;
+    width: 100%;
+}
+
+.properties1-section-area .property-slider-area .property-boxarea .img1 {
+    height: 770px !important;
+    width: 100%;
+}
+
+.featured-boxarea .img1 img,
+.property-boxarea .img1 img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.reveal {
+    visibility: visible !important;
+}
+
+.footer1-section-area .footer-logo-area form {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+    flex-wrap: wrap;
+}
+
+.footer1-section-area .footer-logo-area form button,
+.footer1-section-area .footer-logo-area form .header-btn1 {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+
+/* Blog cards equal height & author icon inline fix */
+.blog1-section-area .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog1-section-area .blog-author-boxarea {
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+.blog1-section-area .blog-author-boxarea .img1 {
+    height: 240px !important;
+    width: 100% !important;
+    overflow: hidden !important;
+}
+
+.blog1-section-area .blog-author-boxarea .img1 img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.blog1-section-area .blog-author-boxarea .content-area {
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+.blog1-section-area .blog-author-boxarea .content-area ul li a {
+    display: inline-flex !important;
+    align-items: center !important;
+}
+
+.blog1-section-area .blog-author-boxarea .content-area ul li a span {
+    display: inline-flex !important;
+    align-items: center !important;
+    margin-right: 6px !important;
+}
+
+.blog1-section-area .blog-author-boxarea .content-area ul li a span img {
+    display: inline-block !important;
+    vertical-align: middle !important;
+    width: 16px !important;
+    height: 16px !important;
+}
